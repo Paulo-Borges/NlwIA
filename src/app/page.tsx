@@ -1,7 +1,7 @@
 "use client";
 
-import { Button, CodeEditor } from "@/components/ui";
 import * as React from "react";
+import { Button, CodeEditor } from "@/components/ui";
 
 export default function Home() {
   const [code, setCode] = React.useState<string>(`console.log("Olá mundo!");`);

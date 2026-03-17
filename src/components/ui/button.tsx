@@ -1,6 +1,6 @@
-import * as React from "react";
-import { tv, type VariantProps } from "tailwind-variants";
+import type * as React from "react";
 import { twMerge } from "tailwind-merge";
+import { tv, type VariantProps } from "tailwind-variants";
 
 const button = tv({
   base: "inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none",
