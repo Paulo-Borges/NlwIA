@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="fixed inset-x-0 bottom-0 z-50 border-t border-slate-200 bg-white/70 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 text-sm text-slate-600">
-        <div>© {new Date().getFullYear()} NlwIA</div>
+        <div>© {new Date().getFullYear()} Borges</div>
         <div className="flex items-center gap-3">
           <Link
             href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/"
